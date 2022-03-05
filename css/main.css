@@ -718,6 +718,7 @@ body{
 .contact-form-item{
   display: block;
   border:none ;
+  outline:none ;
   padding-bottom:10px ;
   border-bottom: 1px solid rgba(255, 255, 255, 1);
   width: 540px;
