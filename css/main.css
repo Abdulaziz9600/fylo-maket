@@ -102,7 +102,7 @@ body{
   padding-bottom: 120px;
   background-image:url(/img/b-g1.png) ;
   background-repeat:no-repeat ;
-  background-position: top 129px right 452px;
+  background-position:  calc(50% - 500px) (top 170px);
   
 }
 .about-section-box{
@@ -304,19 +304,9 @@ body{
   border: 2px solid rgb(0, 0, 0);
   color: rgb(0, 0, 0);
 }
-/* .ready-box::before{
-  display:inline-block;
-  content: '';
-  position: absolute;
-  left: -250px;
-  bottom: -105px;
-  background-image: url(/img/Group8.png);
-  background-repeat:no-repeat ;
-  width: 200px;
-  height: 200px;
-  margin-left: 68px;
-} */
+
 /* SITE-FOOTER-STYLE */
+
 .site-footer{
   padding-top: 48px;
   padding-bottom: 48px;
@@ -376,13 +366,16 @@ body{
 
 .home-section{
   background-color: rgba(1, 78, 86, 1);
-  padding-bottom: 120px;
-  background-image: url(/img/b-g7.png),url(/img/p-g5.png);
+  background-image: url(/img/p-g5.png);
   background-repeat:no-repeat ;
-  background-position: bottom -104px right 350px, top -45px left 0px ;
+  background-position: calc(25% - 0px ) top   ;
 }
 .home-section-box{
   display: flex;
+  background-image:url(/img/b-g7.png);
+  background-position: bottom -104px right 0px;
+  background-repeat:no-repeat ;
+  padding-bottom: 120px;
 }
 .home-titel{
   width: 532px;
@@ -393,7 +386,7 @@ body{
   width: 445px;
   position: relative;
   padding-top: 40px;
-  padding-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .bulid-mange-section{
