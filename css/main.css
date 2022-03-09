@@ -110,12 +110,11 @@ body{
   padding-bottom: 120px;
   background-image:url(/img/b-g1.png) ;
   background-repeat:no-repeat ;
-  background-position:  calc(50% - 500px) (top 170px);
+  background-position: calc(50% + 756px) calc(50% + 15px);
   
 }
 .about-section-box{
   display: flex;
-  position: relative;
 }
 .about-section-titel{
   margin: 0;
@@ -153,7 +152,7 @@ body{
   padding-bottom: 140px;
   background-image: url(/img/b-g2.png),url(/img/b-g3.png);
   background-repeat:no-repeat ;
-  background-position: top 1px left 90px, bottom 0 right 0;
+  background-position: calc(50% - 790px) calc(50% - 460px), calc(50% + 762px) calc(50% + 512px);
 }
 .site-hero{
   position: relative;
@@ -259,7 +258,7 @@ body{
   background-color: rgba(1, 47, 52, 1);
   background-image: url(/img/clients-bg.png);
   background-repeat:no-repeat ;
-  background-position: top 1px left 90px;
+  background-position: calc(50% - 750px) calc(50% - 139px);
 }
 .clinet-bar-box{
   position: relative;
@@ -633,6 +632,9 @@ body{
 .contact-section{
   background-color: rgba(1, 78, 86, 1);
   padding-bottom: 128px;
+  background-image: url(/img/b-g2.png),url(/img/contact-bg.png);
+  background-repeat:no-repeat ;
+  background-position: calc(50% - 888px) calc(50% - 109px), calc(50% + 815px) calc(50% + 125px);
 }
 .contact{
   display: flex;
@@ -728,7 +730,9 @@ body{
 }
 
 /* CONTACT-FORM */ 
-
+.contact-section{
+ 
+}
 .contact-form-item{
   display: block;
   border:none ;

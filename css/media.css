@@ -142,20 +142,123 @@
     margin-right: auto;
     margin-left: auto;
   }
-  /* .footer-log{
-    padding: 0;
-    padding-bottom: 40px;
+  
+  /* ABOUT-PAGE */
+  
+  .about-section{
+    background-position: calc(50% + 361px) calc(50% + 77px);
   }
-  .footer-nav-list{
-    margin-top: 80px;
-    margin-right: 480px;
+  
+  .about-section-box{
+    flex-direction: column;
   }
-  .footer-link-list{
-    margin-left: -259px;
-  } */
+  .about-section-titel{
+    text-align: center;
+  }
+  .about-section-text{
+    width: 457px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+  }
+  
+  .site-hero-section{
+    background-position: calc(50% - 373px) calc(50% - 599px), calc(50% + 305px) calc(50% + 648px);
+  }
+  .site-hero-titel{
+    font-family: Livvic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .site-hero-item{
+    width: 281px;
+    height:253px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  /* CLIENT-PAG */
+  
+  .clinet-section{
+    background-position: calc(50% - 275px) calc(50% - 222px);
+  }
+  
+  .client-titel{
+    width: 457px;
+    font-family: Livvic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 32px;
+  }
+  
+  .client-nav-item{
+    margin: 0;
+  }
+  
+  .client-nav-imges{
+    width: 114px;
+    height: 17px;
+  }
+  
+  /* CONTACT-PAGE */
+  .contact-section{
+    background-position: calc(50% - 399px) calc(50% - 295px), calc(50% + 355px) calc(50% + 316px);
+  }
+  .contact{
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .contact-box{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .contact-titel {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact-ask{
+    text-align: center;
+  }
+  .contact-item{
+    font-family: Livvic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px
+  }
+  .contact-item-setting{
+    font-family: Livvic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px
+  }
+  .contact-item-grow{
+    font-family: Livvic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px
+  }
+  .contact-form{
+    margin-top: 30px;
+    
+  }
+  
   
 }
-
 
 
 @media only screen and ( max-width: 380px  ){
@@ -330,5 +433,116 @@
     display: block;
   }
   
+  /* ABOUT-PAGE */
+  
+  .about-section{
+    background-position: calc(50% + 159px) calc(50% + 207px);
+  }
+  
+  .about-section-box{
+    flex-direction: column;
+  }
+  .about-section-titel{
+    text-align: center;
+  }
+  
+  .about-section-text{
+    width: 327px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+  }
+  
+  .site-hero-section {
+    background-position: calc(50% - 204px) calc(50% - 1167px), calc(50% + 115px) calc(50% + 1135px);
+  }
+  /* CLINET-PAG */
+  .clinet-section{
+    background-position: calc(50% - 175px) calc(50% - 390px);
+  }
+  .clinet-nav-list{
+    text-align: center;
+    flex-direction: column;
+  }
+  .client-nav-item{
+    margin-bottom: 56px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .client-nav-imges{
+    width: 146px;
+    height: 24px;
+  }
+  .clinet-titel{
+    width: 327px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 32px;
+  }
+  
+  .contact-section{
+    background-position: calc(50% - 399px) calc(50% - 295px), calc(50% + 183px) calc(50% + 443px);
+  }
+
+  .contact-box{
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .contact-titel {
+    text-align: center;
+    font-family: Livvic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+  }
+  
+  .contact-list{
+    margin-left: 80px;
+  }
+  .contact-ask{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Livvic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .contact-form-item{
+    width: 325px;
+  }
+  .contact-item{
+    width: 232px;
+    font-family: Livvic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px
+  }
+  
+  .contact-item-setting{
+    width: 232px;
+    font-family: Livvic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px
+  }
+  
+  .contact-item-grow{
+    width: 232px;
+    font-family: Livvic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px
+  }
   
 }
