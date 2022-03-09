@@ -93,7 +93,15 @@ body{
   border: 2px solid rgb(192, 26, 26);
   color: rgb(192, 26, 26);
 }
-
+.hamburger-button{
+  display:none;
+  border: none;
+  background-color: transparent;
+}
+.hamburger-img{
+  width: 20px;
+  height: 17px;
+}
 /* SITE-MAIN */
 
 .about-section{
@@ -278,18 +286,18 @@ body{
 
 .ready-section{
   padding-top: 100px;
-  padding-bottom:100px ;
+  padding-bottom:120px ;
   background-color: rgba(246, 126, 126, 1);
   background-image: url(/img/p-g5.png);
   background-repeat:no-repeat ;
-  background-position: top 76px left 35px;
+  background-position: calc(50% - 700px) calc(50% - -85px)
   
 }
 .ready-box{
   display: flex;
-  position: absolute;
   justify-content: space-between;
 }
+
 .ready-titel{
   margin: 0;
   padding-left: 63px;
@@ -366,9 +374,9 @@ body{
 
 .home-section{
   background-color: rgba(1, 78, 86, 1);
-  background-image: url(/img/p-g5.png);
-  background-repeat:no-repeat ;
-  background-position: calc(25% - 0px ) top   ;
+  background-image: url(/img/b-g8.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 719px) calc(50% + -103px);
 }
 .home-section-box{
   display: flex;
@@ -379,7 +387,8 @@ body{
 }
 .home-titel{
   width: 532px;
-}.titel-color{
+}
+.titel-color{
   color: rgba(246, 126, 126, 1);
 }
 .home-text{
@@ -395,7 +404,7 @@ body{
   background-color: rgba(1, 47, 52, 1);
   background-image: url(/img/clients-bg.png);
   background-repeat: no-repeat;
-  background-position:bottom 0px right -76px ;
+  background-position:calc(50% + 716px)  calc(50% - -242px);
 }
 
 
@@ -483,6 +492,9 @@ body{
   padding-top: 140px;
   padding-bottom: 140px;
   background-color: rgba(0, 64, 71, 1);
+  background-image: url(/img/dv-bg1.png) , url(/img/d-v-bg2.png);
+  background-repeat: no-repeat;
+  background-position:calc(50% - 654px) calc(50% - 309px) , calc(50% + 700px) calc(50% + 312px) ;
 }
 .delivreing-titel{
   width: 932px;
